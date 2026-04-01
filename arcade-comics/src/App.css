@@ -99,3 +99,99 @@ header h2 {
   font-size: 1.5rem;
   color: var(--neon-blue);
 }
+
+.painel-filtros {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.painel-cadastro {
+  background-color: var(--card-bg);
+  border: 1px solid var(--neon-blue);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.painel-cadastro h3 {
+  color: var(--neon-blue);
+  margin-top: 0;
+  text-shadow: 0 0 5px var(--neon-blue);
+}
+
+.form-arcade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.input-arcade {
+  background-color: #111;
+  border: 1px solid #555;
+  color: #0ff;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.input-arcade:focus {
+  outline: none;
+  border-color: var(--neon-pink);
+  box-shadow: 0 0 8px rgba(255, 0, 234, 0.5);
+}
+
+.btn-arcade {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-add {
+  background-color: #00ff00;
+  color: #000;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+.btn-add:hover {
+  background-color: #00cc00;
+  box-shadow: 0 0 15px #00ff00;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  border-top: 1px dashed #444;
+  padding-top: 15px;
+}
+
+.btn-comprar {
+  background-color: var(--neon-blue);
+  color: #000;
+  flex: 1;
+}
+
+.btn-remover {
+  background-color: transparent;
+  color: #ff3333;
+  border: 1px solid #ff3333;
+}
+
+.btn-comprar:hover {
+  box-shadow: 0 0 10px var(--neon-blue);
+}
+
+.btn-remover:hover {
+  background-color: #ff3333;
+  color: #fff;
+}
