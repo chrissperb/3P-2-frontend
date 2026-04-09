@@ -195,3 +195,10 @@ header h2 {
   background-color: #ff3333;
   color: #fff;
 }
+
+.msg-vazio {
+  color: var(--neon-pink);
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
