@@ -202,3 +202,25 @@ header h2 {
   text-align: center;
   width: 100%;
 }
+
+.msg-carregando {
+  color: var(--neon-blue);
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 2rem;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
